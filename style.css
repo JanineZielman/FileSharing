@@ -1,0 +1,292 @@
+body{
+  background-color: black;
+}
+
+img{
+  max-height: 275px;
+  max-width: 275px;
+}
+
+i{
+  font-size: 12px;
+}
+
+
+.center{
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.text{
+  position: absolute;
+  margin-top: -22px;
+  margin-left: -22px;
+  width: 320px;
+  height: 320px;
+background-color: inherit;
+opacity: 0;
+}
+
+.text p {
+  padding: 20px;
+}
+
+.text:hover{
+  background-color: #FF00C4;
+  opacity: 1;
+  color: white;
+}
+
+.text a{
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border: 1px;
+  border-color: white;
+  border-style: solid;
+    transition: transform .2s;
+}
+
+.text a:hover{
+  font-weight: bold;
+}
+
+.text2{
+  position: absolute;
+  margin-top: -54px;
+  margin-left: -22px;
+  width: 320px;
+  height: 320px;
+background-color: #FF00C4;
+}
+
+.text2 p{
+  padding: 20px;
+}
+
+.text2 a{
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border: 1px;
+  border-color: white;
+  border-style: solid;
+    transition: transform .2s;
+}
+
+.text2 a:hover{
+  font-weight: bold;
+}
+
+.text3{
+  position: absolute;
+  margin-top: -54px;
+  margin-left: -22px;
+  width: 320px;
+  height: 320px;
+background-color: #FF00C4;
+}
+
+.text3 p{
+  padding: 20px;
+}
+
+.text3 a{
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border: 1px;
+  border-color: white;
+  border-style: solid;
+    transition: transform .2s;
+}
+
+
+.text3 a:hover{
+  font-weight: bold;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: inherit;
+    margin: auto;
+    border: 2px;
+    border-style: solid;
+    border-color: #FF00C4;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #FF00C4;
+    font-family: Helvetica Neue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li p {
+    display: block;
+    color: #FF00C4;
+    font-family: Helvetica Neue;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+li a:hover {
+   font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: auto auto auto auto;
+  padding-top: 20px;
+}
+
+.grid-item{
+  width: 275px;
+  height: 275px;
+  border: 2px;
+  border-style: solid;
+  border-color: #FF00C4;
+  padding: 20px;
+  text-align: left;
+  font-family: Helvetica Neue;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 14px;
+  transition: transform .2s;
+}
+
+.empty{
+  width: 275px;
+  background-color: inherit;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+p1{
+  color: #FF00C4;
+}
+
+p5{
+  margin-top: -25px;
+  margin-left: 270px;
+  color: #FF00C4;
+  position: absolute;
+  text-align: right;
+  font-size: 30px;
+}
+
+.color{
+  font-size: 12px;
+  color: white;
+}
+
+.space{
+  padding-right: 490px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: inherit;
+    border: 1px;
+    border-style: solid;
+    border-color: #FF00C4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FF00C4;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #FF00C4;
+}
+
+p5:hover{
+  color: white;
+}
+
+p1:hover{
+  color: white;
+}
+
+.grid-item:hover{
+transform: scale(1.07);
+}
+
+.link{
+  position: absolute;
+  margin-top: 25px;
+  width: 275px;
+  height: 225px;
+  background-color: inherit;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.field{
+  max-width: 800px;
+  margin-top: 50px;
+  border: 2px;
+  border-style: solid;
+  border-color: #FF00C4;
+  padding: 20px;
+}
+
+p6{
+  color: white;
+  font-family: Helvetica Neue;
+  font-size: 14px;
+}
+
+p7{
+margin-top: 0px;
+margin-left: 450px;
+color: #FF00C4;
+position: absolute;
+text-align: right;
+font-size: 14px;
+}
+
+p7:hover{
+  color: white;
+}
+
+.side{
+  padding: 20px;
+  border: 2px;
+  border-style: solid;
+  border color: #FF00C4;
+  position: absolute;
+  right: 50px;
+  margin-top: 0px;
+}
+
+p8{
+  color: #FF00C4;
+  font-family: Helvetica Neue;
+  font-size: 14px;
+}
